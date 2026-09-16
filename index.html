@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MD Noman Islam — Computer Scientist, Researcher &amp; Educator</title>
-<meta name="description" content="MD Noman Islam — Head of IT &amp; Computer Science Teacher at The New School Dhaka, CSE researcher (LLMs, HCI, Sustainable Computing) and software engineer. AIUB Magna Cum Laude, CGPA 3.93.">
+<title>MD Noman Islam — Computer Scientist, Researcher &amp; Technology Leader</title>
+<meta name="description" content="MD Noman Islam — Head of IT at The New School Dhaka, Founder of Dabblers360, and CSE researcher in Large Language Models, Human–Computer Interaction and Sustainable Computing. AIUB, CGPA 3.93, Magna Cum Laude.">
 <meta name="author" content="MD Noman Islam">
-<meta name="keywords" content="MD Noman Islam, Computer Science, AIUB, Bangladesh, LLM research, HCI, UX, Software Engineering, Laravel developer, Dhaka, green computing">
+<meta name="keywords" content="MD Noman Islam, Dabblers360, The New School Dhaka, IT leadership, Computer Science, AIUB, LLM research, HCI, UX, Software Engineering, Laravel, Dhaka Bangladesh">
 <link rel="canonical" href="https://nomanislam222.github.io/">
 
 <meta property="og:type" content="profile">
-<meta property="og:title" content="MD Noman Islam — Computer Scientist, Researcher &amp; Educator">
-<meta property="og:description" content="Research in LLMs, Human–Computer Interaction and Sustainable Computing. Head of IT at The New School Dhaka. AIUB CSE, Magna Cum Laude.">
+<meta property="og:title" content="MD Noman Islam — Computer Scientist, Researcher &amp; Technology Leader">
+<meta property="og:description" content="Head of IT at The New School Dhaka · Founder of Dabblers360 · Research in LLMs, HCI and Sustainable Computing.">
 <meta property="og:url" content="https://nomanislam222.github.io/">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/113965562?v=4">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#06070d">
+<meta name="theme-color" content="#EDE6F7">
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c5cff'/%3E%3Cstop offset='.55' stop-color='%2322d3ee'/%3E%3Cstop offset='1' stop-color='%23ffb020'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='%230b0d14'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='52' font-weight='700' text-anchor='middle' fill='url(%23g)'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='26' fill='%23EDE6F7'/%3E%3Ctext x='50' y='67' font-family='Helvetica,Arial,sans-serif' font-size='46' font-weight='700' letter-spacing='-2' text-anchor='middle' fill='%236F52A8'%3ENI%3C/text%3E%3C/svg%3E">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
 
 <script type="application/ld+json">
@@ -30,14 +30,17 @@
   "@type": "Person",
   "name": "MD Noman Islam",
   "jobTitle": "Head of IT & Computer Science Teacher",
-  "worksFor": { "@type": "Organization", "name": "The New School Dhaka" },
+  "worksFor": [
+    { "@type": "Organization", "name": "The New School Dhaka" },
+    { "@type": "Organization", "name": "Dabblers360" }
+  ],
   "alumniOf": { "@type": "CollegeOrUniversity", "name": "American International University-Bangladesh (AIUB)" },
   "email": "mailto:mdnomanislam333@gmail.com",
   "telephone": "+8801706129252",
   "address": { "@type": "PostalAddress", "addressLocality": "Kuril, Dhaka", "addressCountry": "Bangladesh" },
   "url": "https://nomanislam222.github.io/",
   "image": "https://avatars.githubusercontent.com/u/113965562?v=4",
-  "knowsAbout": ["Large Language Models","Human–Computer Interaction","Software Engineering","Sustainable Computing","UX Research","Laravel"],
+  "knowsAbout": ["Large Language Models","Human–Computer Interaction","Software Engineering","Sustainable Computing","IT Leadership","UX Research","Laravel"],
   "sameAs": [
     "https://github.com/nomanislam222",
     "https://www.linkedin.com/in/nomanislam222/",
@@ -48,44 +51,44 @@
 </head>
 <body>
 
+<canvas id="gl" aria-hidden="true"></canvas>
 <div class="grain" aria-hidden="true"></div>
-<div class="orb orb-1" aria-hidden="true"></div>
-<div class="orb orb-2" aria-hidden="true"></div>
-<div class="orb orb-3" aria-hidden="true"></div>
-<div class="cursor-glow" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span></span></div>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-name">MD NOMAN ISLAM</div>
+    <div class="loader-bar"><i id="loaderBar"></i></div>
+  </div>
+</div>
 
 <a class="skip-link" href="#main">Skip to content</a>
-<div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+<div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
 
 <!-- ============ NAV ============ -->
 <header class="nav" id="nav">
   <div class="nav-inner">
-    <a href="#top" class="brand" aria-label="MD Noman Islam — home">
-      <span class="brand-mark">N</span>
-      <span class="brand-text">
-        <strong>MD Noman Islam</strong>
-        <em>Computer Science &amp; Research</em>
-      </span>
+    <a href="#top" class="brand" data-magnet>
+      <span class="brand-name">MD Noman Islam</span>
+      <span class="brand-role">Computer Science · Research · Leadership</span>
     </a>
 
     <nav class="nav-links" id="navLinks" aria-label="Section navigation">
       <a href="#about">About</a>
-      <a href="#experience">Experience</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#dabblers360">Dabblers360</a>
       <a href="#research">Research</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
+      <a href="#work">Work</a>
       <a href="#contact">Contact</a>
     </nav>
 
     <div class="nav-actions">
-      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme" title="Switch theme">
-        <svg class="ico-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
-        <svg class="ico-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-      </button>
-      <a class="btn btn-ghost nav-cv" href="assets/MD-Noman-Islam-CV.pdf" download>Résumé</a>
-      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
-        <span></span><span></span><span></span>
+      <a class="btn btn-sm btn-solid" href="assets/MD-Noman-Islam-CV.pdf" download="MD-Noman-Islam-CV.pdf" data-magnet>
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>
+        CV
+      </a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
       </button>
     </div>
   </div>
@@ -95,86 +98,89 @@
 <span id="top"></span>
 
 <!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow reveal"><span class="pulse"></span> Available for research collaboration &amp; teaching</p>
+<section class="hero" id="home" data-scene="sphere">
+  <div class="wrap hero-wrap">
+    <p class="eyebrow reveal"><span class="pulse"></span> Open to research collaboration, faculty roles &amp; consulting</p>
 
-      <h1 class="reveal">
-        <span class="h1-line">MD Noman</span>
-        <span class="h1-line grad">Islam</span>
-      </h1>
+    <h1 class="hero-name">
+      <span class="line"><span class="split" data-split>MD NOMAN</span></span>
+      <span class="line"><span class="split grad" data-split>ISLAM</span></span>
+    </h1>
 
-      <p class="role reveal">
-        <span class="role-static">I work on</span>
+    <div class="hero-meta reveal">
+      <p class="role">
+        <span class="role-static">Building &amp; researching</span>
         <span class="role-rotate" id="roleRotate" aria-live="polite"></span><span class="caret"></span>
       </p>
-
-      <p class="lede reveal">
-        Computer Science graduate of <strong>AIUB</strong> — CGPA <strong>3.93</strong>, Magna Cum Laude —
-        now <strong>Head of IT &amp; Computer Science Teacher</strong> at The New School Dhaka.
-        I research Large Language Models, Human–Computer Interaction and Sustainable Computing,
-        and I build the software that puts that research to work.
+      <p class="lede">
+        Head of IT at <strong>The New School Dhaka</strong>, Founder of <strong>Dabblers360</strong>, and a
+        Computer Science researcher working on Large Language Models, Human–Computer Interaction and
+        Sustainable Computing. AIUB, CGPA <strong>3.93</strong>, Magna Cum Laude.
       </p>
-
-      <div class="hero-cta reveal">
-        <a class="btn btn-primary" href="#contact">
-          Get in touch
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <a class="btn btn-outline" href="assets/MD-Noman-Islam-CV.pdf" download>
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>
-          Download CV
-        </a>
-      </div>
-
-      <ul class="socials reveal">
-        <li><a href="https://github.com/nomanislam222" target="_blank" rel="noopener" aria-label="GitHub">
-          <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.2c-3.34.73-4.04-1.42-4.04-1.42-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.21.09 1.85 1.25 1.85 1.25 1.08 1.84 2.83 1.31 3.52 1 .11-.79.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.13-.3-.54-1.53.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.01 0c2.29-1.55 3.3-1.23 3.3-1.23.65 1.65.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.63-2.8 5.65-5.48 5.95.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/></svg><span>GitHub</span></a></li>
-        <li><a href="https://www.linkedin.com/in/nomanislam222/" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM2.9 21.5h4.16V9.5H2.9v12ZM9.5 9.5h3.99v1.64h.06c.56-1.05 1.93-2.16 3.97-2.16 4.25 0 5.03 2.79 5.03 6.42v6.1h-4.15v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85v5.5H9.5v-12Z"/></svg><span>LinkedIn</span></a></li>
-        <li><a href="https://www.facebook.com/nomanislam222" target="_blank" rel="noopener" aria-label="Facebook">
-          <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.51 1.5-3.9 3.78-3.9 1.1 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12Z"/></svg><span>Facebook</span></a></li>
-        <li><a href="mailto:mdnomanislam333@gmail.com" aria-label="Email">
-          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg><span>Email</span></a></li>
-      </ul>
     </div>
 
-    <div class="hero-visual reveal">
-      <div class="portrait">
-        <div class="portrait-ring" aria-hidden="true"></div>
-        <img src="https://avatars.githubusercontent.com/u/113965562?v=4" alt="Portrait of MD Noman Islam" id="portraitImg" width="360" height="360" loading="eager">
-        <div class="portrait-fallback" id="portraitFallback" aria-hidden="true">NI</div>
-      </div>
-      <div class="float-card fc-1"><span class="fc-k">CGPA</span><span class="fc-v">3.93</span><span class="fc-s">Magna Cum Laude</span></div>
-      <div class="float-card fc-2"><span class="fc-k">Research</span><span class="fc-v">5</span><span class="fc-s">journal · conference · thesis</span></div>
+    <div class="hero-cta reveal">
+      <a class="btn btn-primary" href="#leadership" data-magnet>
+        Explore my work
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn-ghost" href="assets/MD-Noman-Islam-CV.pdf" download="MD-Noman-Islam-CV.pdf" data-magnet>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>
+        Download CV
+      </a>
     </div>
+
+    <ul class="socials reveal">
+      <li><a href="https://github.com/nomanislam222" target="_blank" rel="noopener" data-magnet>GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/nomanislam222/" target="_blank" rel="noopener" data-magnet>LinkedIn</a></li>
+      <li><a href="https://www.facebook.com/nomanislam222" target="_blank" rel="noopener" data-magnet>Facebook</a></li>
+      <li><a href="mailto:mdnomanislam333@gmail.com" data-magnet>Email</a></li>
+    </ul>
   </div>
 
+  <div class="scroll-cue" aria-hidden="true">
+    <span>Scroll</span>
+    <i></i>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack">
+    <span>Large Language Models</span><em>◆</em>
+    <span>Human–Computer Interaction</span><em>◆</em>
+    <span>Sustainable Computing</span><em>◆</em>
+    <span>IT Leadership</span><em>◆</em>
+    <span>Software Engineering</span><em>◆</em>
+    <span>Dhaka, Bangladesh</span><em>◆</em>
+  </div>
+</div>
+
+<!-- ============ STATS ============ -->
+<section class="section stats-section" data-scene="torus">
   <div class="wrap">
-    <ul class="stats reveal">
-      <li><b data-count="3.93" data-dec="2">0</b><span>CGPA out of 4.00</span></li>
-      <li><b data-count="5">0</b><span>Research works</span></li>
-      <li><b data-count="15" data-suffix="+">0</b><span>Industrial visits led</span></li>
-      <li><b data-count="16" data-suffix="+">0</b><span>Public repositories</span></li>
+    <ul class="stats">
+      <li class="reveal"><b data-count="3.93" data-dec="2">0</b><span>CGPA out of 4.00<br>Magna Cum Laude</span></li>
+      <li class="reveal"><b data-count="5">0</b><span>Research works<br>journal · conference · thesis</span></li>
+      <li class="reveal"><b data-count="10">0</b><span>Person team led<br>as Founder, Dabblers360</span></li>
+      <li class="reveal"><b data-count="15" data-suffix="+">0</b><span>Industrial visits<br>organised &amp; led</span></li>
     </ul>
   </div>
 </section>
 
 <!-- ============ ABOUT ============ -->
-<section id="about" class="section">
+<section id="about" class="section" data-scene="torus">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-num">01</span>
-      <h2>About</h2>
-      <p class="sec-sub">Researcher, engineer, and teacher — in that order of curiosity.</p>
+    <div class="sec-head">
+      <span class="sec-num reveal">01 — About</span>
+      <h2 data-split-lines>Researcher, engineer, and the person who keeps the systems running.</h2>
     </div>
 
     <div class="about-grid">
-      <div class="about-text reveal">
-        <p>I am a Computer Science graduate from <strong>American International University-Bangladesh</strong>, majoring in Software Engineering, where I finished with a CGPA of 3.93, Magna Cum Laude, and the Dean's Award in every semester I studied.</p>
-        <p>My work sits at the meeting point of three questions: <em>how do people actually use software</em>, <em>how can large language models be directed reliably</em>, and <em>how much of computing's cost — financial and environmental — is avoidable</em>. Those questions produced five research works: UX maturity across Bangladeshi digital firms, a comparative study of rent-a-house platforms, prompt engineering and human interaction in LLMs, cost optimisation in microservice architecture, and a bridge framework for closing the UX design gap in small companies.</p>
-        <p>Alongside research I lead IT at <strong>The New School Dhaka</strong> — building the Computer Science syllabus against the Cambridge curriculum, running the school's networking and systems infrastructure, and teaching ICT and AI to students who will inherit all of it. Before that I shipped a production Laravel management system for a food-manufacturing brand, which is where I learned that elegant architecture means nothing if the person on the factory floor cannot use it.</p>
+      <div class="about-text">
+        <p class="reveal">I graduated in Computer Science from <strong>American International University-Bangladesh</strong>, majoring in Software Engineering, finishing with a CGPA of 3.93, Magna Cum Laude, and the Dean's Award in every semester I studied.</p>
+        <p class="reveal">My work sits where three questions meet: <em>how do people actually use software</em>, <em>how can large language models be directed reliably</em>, and <em>how much of computing's cost — financial and environmental — is avoidable</em>. Those questions produced five research works across HCI, LLMs, software engineering and cloud economics.</p>
+        <p class="reveal">Alongside research I run two things that need someone to be accountable for them: the IT function of a school, and a consultancy I founded. Both taught me the same lesson the Laravel system I shipped for a food manufacturer taught me — elegant architecture means nothing if the person on the floor can't use it.</p>
       </div>
 
       <div class="about-side">
@@ -192,9 +198,9 @@
           <h3>At a glance</h3>
           <dl class="facts">
             <dt>Based in</dt><dd>Kuril, Dhaka, Bangladesh</dd>
-            <dt>Currently</dt><dd>Head of IT, The New School Dhaka</dd>
+            <dt>Leading</dt><dd>IT team, The New School Dhaka</dd>
+            <dt>Founded</dt><dd>Dabblers360 — 10 people</dd>
             <dt>Languages</dt><dd>Bangla (native) · English (professional)</dd>
-            <dt>Focus</dt><dd>LLMs · HCI · Sustainable Computing</dd>
           </dl>
         </div>
       </div>
@@ -202,82 +208,122 @@
   </div>
 </section>
 
-<!-- ============ EXPERIENCE ============ -->
-<section id="experience" class="section alt">
+<!-- ============ LEADERSHIP ============ -->
+<section id="leadership" class="section alt" data-scene="helix">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-num">02</span>
-      <h2>Experience</h2>
-      <p class="sec-sub">Teaching, research, and production software — three years of overlap.</p>
+    <div class="sec-head">
+      <span class="sec-num reveal">02 — Leadership</span>
+      <h2 data-split-lines>Two teams. One standard.</h2>
+      <p class="sec-sub reveal">I don't only build the systems — I'm accountable for the people and the outcomes behind them.</p>
     </div>
 
-    <ol class="timeline">
-      <li class="reveal">
-        <div class="tl-dot" aria-hidden="true"></div>
-        <div class="tl-card">
-          <div class="tl-top">
-            <div>
-              <h3>Head of IT &amp; Computer Science Teacher</h3>
-              <p class="tl-org">The New School Dhaka · <a href="https://nsdschool.com/" target="_blank" rel="noopener">nsdschool.com</a></p>
-            </div>
-            <span class="chip chip-live">Jul 2025 — Present</span>
-          </div>
-          <ul class="tick">
-            <li>Teach theory and laboratory Computer Science classes; design ICT and AI curriculum against the Cambridge framework.</li>
-            <li>Author syllabus, course outlines and lesson plans for the full Computer Science stream.</li>
-            <li>Lead and coordinate all IT operations — networking infrastructure, systems and technical support.</li>
-            <li>Own the school's digital presence: website, online platforms, and portal integration for academic and administrative systems.</li>
-            <li>Supervise IT staff and all institutional information systems.</li>
-          </ul>
+    <div class="lead-grid">
+      <article class="lead-card reveal" data-tilt>
+        <div class="lead-top">
+          <span class="badge">Head of IT</span>
+          <span class="chip chip-live">Jul 2025 — Present</span>
         </div>
-      </li>
+        <h3>The New School Dhaka</h3>
+        <p class="lead-role">I lead the school's IT team and own every technology function of the institution.</p>
+        <ul class="tick">
+          <li><strong>Supervise the IT staff</strong> — set priorities, assign ownership, and answer for delivery across the whole function.</li>
+          <li><strong>Direct all IT operations</strong> — networking infrastructure, systems administration, technical support and vendor coordination.</li>
+          <li><strong>Own the digital presence</strong> — website, online platforms, and portal integration across academic and administrative systems.</li>
+          <li><strong>Design the CS curriculum</strong> against the Cambridge framework; author syllabus, course outlines and lesson plans for the full stream.</li>
+          <li><strong>Teach</strong> theory and laboratory Computer Science, ICT and AI.</li>
+        </ul>
+        <a class="lead-link" href="https://nsdschool.com/" target="_blank" rel="noopener">nsdschool.com →</a>
+      </article>
 
-      <li class="reveal">
-        <div class="tl-dot" aria-hidden="true"></div>
-        <div class="tl-card">
-          <div class="tl-top">
-            <div>
-              <h3>Research Intern</h3>
-              <p class="tl-org">Advanced Machine Intelligence Research Lab (AMIRL) · <a href="https://amirl.org/" target="_blank" rel="noopener">amirl.org</a></p>
-            </div>
-            <span class="chip">Jan 2025 — Jun 2025</span>
-          </div>
-          <ul class="tick">
-            <li>Contributed to research and development of the <strong>BackBrainAI</strong> project.</li>
-            <li>Led research on <em>“Prompt Engineering &amp; Bangla Language Interaction in LLMs: Challenges &amp; Opportunities”</em> — linguistic limitations, NLP model evaluation, human–LLM interaction modes, and contextual performance of LLMs.</li>
-            <li>Ran literature review, experimental design, prompt optimisation and model-output evaluation; co-drafted technical documentation.</li>
-          </ul>
+      <article class="lead-card reveal" data-tilt>
+        <div class="lead-top">
+          <span class="badge badge-alt">Founder</span>
+          <span class="chip chip-live">Jun 2026 — Present</span>
         </div>
-      </li>
+        <h3>Dabblers360</h3>
+        <p class="lead-role">I founded and lead a ten-person consultancy delivering IT, marketing and business solutions from one platform.</p>
+        <ul class="tick">
+          <li><strong>Built the team</strong> across engineering, web development, IT support, marketing, design, data analysis and legal consulting.</li>
+          <li><strong>Set direction and quality standards</strong> for every engagement the company takes on.</li>
+          <li><strong>Research- and analysis-led delivery</strong> — clients are taken from initial plan through to full brand execution.</li>
+          <li><strong>Serve SMEs, startups, schools, corporates and non-profits</strong> across Dhaka and beyond.</li>
+        </ul>
+        <a class="lead-link" href="#dabblers360">See the company →</a>
+      </article>
+    </div>
 
-      <li class="reveal">
-        <div class="tl-dot" aria-hidden="true"></div>
-        <div class="tl-card">
-          <div class="tl-top">
-            <div>
-              <h3>Laravel Developer</h3>
-              <p class="tl-org">Tanvir Food Products (Delkhosh Brand) · <a href="https://tfp-delkhosh.com/" target="_blank" rel="noopener">tfp-delkhosh.com</a></p>
-            </div>
-            <span class="chip">Aug 2023 — Jul 2024</span>
-          </div>
-          <ul class="tick">
-            <li>Designed, built and deployed a Laravel management system that digitised manual business operations end to end.</li>
-            <li>Implemented secure authentication and owned the MySQL layer — schema design, query optimisation, data integrity.</li>
-            <li>Managed hosting, server configuration and deployment; handled performance tuning, debugging and ongoing maintenance.</li>
-          </ul>
-        </div>
-      </li>
-    </ol>
+    <div class="lead-extra reveal">
+      <div class="lead-extra-copy">
+        <span class="kicker">Academic leadership</span>
+        <h3>Convener — AIUB Students' Industrial Visit Program</h3>
+        <p>Organised and led <strong>15+ industrial visits</strong> connecting students directly with Bangladesh's leading software and technology companies — managing scheduling, student coordination and all professional correspondence, and negotiating technical sessions and company tours through formal industry outreach.</p>
+      </div>
+      <ul class="companies">
+        <li>Brain Station 23</li><li>Softvence Agency</li><li>Riseup Labs</li><li>SparkTech Agency</li>
+        <li>3S Software</li><li>JVAI</li><li>ScaleUp</li><li>DSI</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DABBLERS360 ============ -->
+<section id="dabblers360" class="section" data-scene="grid">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num reveal">03 — My company</span>
+      <h2 data-split-lines>Dabblers360</h2>
+      <p class="sec-sub reveal">Founded June 2026 in Dhaka. All business solutions from a single platform — research-led, analysis-led, and accountable end to end.</p>
+    </div>
+
+    <div class="d-grid">
+      <div class="d-service reveal" data-tilt>
+        <span class="d-num">01</span>
+        <h3>IT Services</h3>
+        <p>Systems, web platforms, infrastructure and ongoing technical support — the engineering backbone clients build on.</p>
+      </div>
+      <div class="d-service reveal" data-tilt>
+        <span class="d-num">02</span>
+        <h3>Marketing</h3>
+        <p>Brand execution, social and creative — taking a positioning from a plan on paper to something the market actually sees.</p>
+      </div>
+      <div class="d-service reveal" data-tilt>
+        <span class="d-num">03</span>
+        <h3>Business Consulting</h3>
+        <p>Research, analysis and strategy, including the legal and data work that makes a decision defensible.</p>
+      </div>
+    </div>
+
+    <div class="d-team reveal">
+      <div class="d-team-head">
+        <h3>The team I lead</h3>
+        <p>Ten people across engineering, marketing, design, data and legal — serving SMEs, startups, schools, corporates and non-profits.</p>
+      </div>
+      <ul class="d-roles">
+        <li><b>MD Noman Islam</b><span>Founder</span></li>
+        <li><b>Shohidul Islam</b><span>Software Engineer</span></li>
+        <li><b>Kanak Kumar Saha</b><span>Web Developer</span></li>
+        <li><b>MD Nasimul Islam</b><span>IT Executive</span></li>
+        <li><b>Hasibur Rahman</b><span>IT Support</span></li>
+        <li><b>Mahmudul Hasan Rony</b><span>Marketing Manager</span></li>
+        <li><b>MD Minhajul Islam</b><span>Social Media Executive</span></li>
+        <li><b>Apu Shikder</b><span>Creative Designer</span></li>
+        <li><b>Shahab Uddin</b><span>Data Analyst</span></li>
+        <li><b>Mahfuj Tanvir</b><span>Legal Consultant</span></li>
+      </ul>
+      <div class="d-foot">
+        <span>dabblers360@gmail.com</span>
+        <a href="https://www.facebook.com/dabblers360" target="_blank" rel="noopener" data-magnet>facebook.com/dabblers360 →</a>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- ============ RESEARCH ============ -->
-<section id="research" class="section">
+<section id="research" class="section alt" data-scene="galaxy">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-num">03</span>
-      <h2>Research</h2>
-      <p class="sec-sub">Five works across HCI, large language models, software engineering and cloud economics.</p>
+    <div class="sec-head">
+      <span class="sec-num reveal">04 — Research</span>
+      <h2 data-split-lines>Five works across HCI, LLMs and cloud economics.</h2>
     </div>
 
     <div class="filters reveal" role="tablist" aria-label="Filter research by type">
@@ -288,282 +334,224 @@
     </div>
 
     <div class="research-grid" id="researchGrid">
-
-      <article class="rcard reveal" data-type="journal">
-        <div class="rcard-top"><span class="badge badge-journal">Journal</span><span class="rcard-area">HCI · UX Analysis</span></div>
+      <article class="rcard reveal" data-type="journal" data-tilt>
+        <div class="rcard-top"><span class="badge badge-j">Journal</span><span class="rcard-area">HCI · UX Analysis</span></div>
         <h3>Comparative Analysis of Rent-a-House Platforms: Identifying Disparities and Recommending Enhancements for the Bangladeshi Market</h3>
         <p>A comparative evaluation of housing-rental platforms serving Bangladesh, surfacing the interaction and information gaps between them and setting out concrete design enhancements for the local market.</p>
         <footer><span class="sup">Supervisor</span> Dr. Mohammad Mahmudul Hasan · Associate Professor, AIUB</footer>
       </article>
 
-      <article class="rcard reveal" data-type="conference">
-        <div class="rcard-top"><span class="badge badge-conf">Conference</span><span class="rcard-area">UX Maturity · HCI · SE</span></div>
+      <article class="rcard reveal" data-type="conference" data-tilt>
+        <div class="rcard-top"><span class="badge badge-c">Conference</span><span class="rcard-area">UX Maturity · HCI · SE</span></div>
         <h3>UX Maturity in Bangladeshi Digital Firms: A Multi-Case Assessment and Roadmap</h3>
-        <p>A multi-case assessment of how UX practice actually matures inside Bangladeshi digital firms, ending in a staged roadmap organisations can use to move up the maturity ladder deliberately rather than by accident.</p>
+        <p>A multi-case assessment of how UX practice actually matures inside Bangladeshi digital firms, ending in a staged roadmap organisations can use to climb the maturity ladder deliberately rather than by accident.</p>
         <footer><span class="sup">Supervisor</span> Dr. Mohammad Mahmudul Hasan · Associate Professor, AIUB</footer>
       </article>
 
-      <article class="rcard reveal" data-type="journal">
-        <div class="rcard-top"><span class="badge badge-journal">Journal</span><span class="rcard-area">LLMs · Prompt Engineering</span></div>
+      <article class="rcard reveal" data-type="journal" data-tilt>
+        <div class="rcard-top"><span class="badge badge-j">Journal</span><span class="rcard-area">LLMs · Prompt Engineering</span></div>
         <h3>Prompt Engineering &amp; Human Interaction in LLMs: Challenges &amp; Opportunities</h3>
         <p>Examines the linguistic limitations of large language models, categorises prompt-engineering techniques, evaluates NLP model behaviour, and maps the modes through which humans and LLMs actually interact — with particular attention to Bangla.</p>
         <footer><span class="sup">Supervisor</span> Prof. Dr. Firoz Mridha · Director, AMIRL</footer>
       </article>
 
-      <article class="rcard reveal" data-type="thesis">
-        <div class="rcard-top"><span class="badge badge-thesis">Thesis</span><span class="rcard-area">Cloud · Microservices · Cost</span></div>
+      <article class="rcard reveal" data-type="thesis" data-tilt>
+        <div class="rcard-top"><span class="badge badge-t">Thesis</span><span class="rcard-area">Cloud · Microservices · Cost</span></div>
         <h3>Reducing Infrastructure &amp; Operational Costs in Microservice Architecture: Optimizing Resource Efficiency through Cost-Effective Strategies</h3>
         <p>Undergraduate thesis on where microservice deployments waste resources and money, and which cost-effective strategies recover that efficiency without giving up the architecture's benefits.</p>
         <footer><span class="sup">Supervisor</span> Taslimur Rahman · Lecturer, Dept. of CSE, AIUB</footer>
       </article>
 
-      <article class="rcard reveal" data-type="journal">
-        <div class="rcard-top"><span class="badge badge-journal">Journal</span><span class="rcard-area">UX Framework · SE</span></div>
+      <article class="rcard reveal" data-type="journal" data-tilt>
+        <div class="rcard-top"><span class="badge badge-j">Journal</span><span class="rcard-area">UX Framework · SE</span></div>
         <h3>Bridge Framework for UX Design Gap: An Approach for Small Companies to Produce High-Quality Products</h3>
         <p>Proposes a framework that lets small companies — without dedicated UX teams or budgets — close the gap between what they build and what users need, and still ship high-quality products.</p>
         <footer><span class="sup">Supervisor</span> Taslimur Rahman · Lecturer, Dept. of CSE, AIUB</footer>
       </article>
-
     </div>
 
-    <p class="note reveal">Current research direction: <strong>green computing and carbon-footprint reduction across the Software Development Life Cycle</strong>, as a researcher with the Department of Computer Science, AIUB.</p>
+    <p class="note reveal">Current direction: <strong>green computing and carbon-footprint reduction across the Software Development Life Cycle</strong>, as a researcher with the Department of Computer Science, AIUB.</p>
   </div>
 </section>
 
-<!-- ============ PROJECTS ============ -->
-<section id="projects" class="section alt">
+<!-- ============ WORK / TIMELINE + PROJECTS ============ -->
+<section id="work" class="section" data-scene="lattice">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-num">04</span>
-      <h2>Projects &amp; Code</h2>
-      <p class="sec-sub">Production systems, coursework libraries, and everything open on GitHub.</p>
+    <div class="sec-head">
+      <span class="sec-num reveal">05 — Track record</span>
+      <h2 data-split-lines>Teaching, research and production software.</h2>
     </div>
 
-    <div class="proj-grid">
+    <ol class="timeline">
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <div><h3>Head of IT &amp; Computer Science Teacher</h3><p class="tl-org">The New School Dhaka</p></div>
+            <span class="chip chip-live">Jul 2025 — Present</span>
+          </div>
+          <p>Leads the IT team and owns infrastructure, systems, digital presence and the Computer Science curriculum.</p>
+        </div>
+      </li>
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <div><h3>Founder</h3><p class="tl-org">Dabblers360</p></div>
+            <span class="chip chip-live">Jun 2026 — Present</span>
+          </div>
+          <p>Founded a ten-person consultancy across IT, marketing and business consulting; leads direction, hiring and delivery standards.</p>
+        </div>
+      </li>
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <div><h3>Research Intern</h3><p class="tl-org">Advanced Machine Intelligence Research Lab (AMIRL)</p></div>
+            <span class="chip">Jan 2025 — Jun 2025</span>
+          </div>
+          <p>Contributed to <strong>BackBrainAI</strong>; led research on prompt engineering and Bangla-language interaction in LLMs, running literature review, experimental design, prompt optimisation and model-output evaluation.</p>
+        </div>
+      </li>
+      <li class="reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <div><h3>Laravel Developer</h3><p class="tl-org">Tanvir Food Products (Delkhosh Brand)</p></div>
+            <span class="chip">Aug 2023 — Jul 2024</span>
+          </div>
+          <p>Designed, built and deployed a Laravel management system that digitised manual operations end to end; owned the MySQL layer, hosting, deployment and performance.</p>
+        </div>
+      </li>
+    </ol>
 
-      <a class="pcard pcard-feature reveal" href="https://tfp-delkhosh.com/" target="_blank" rel="noopener">
+    <h3 class="sub-head reveal">Selected projects &amp; code</h3>
+    <div class="proj-grid">
+      <a class="pcard pcard-feature reveal" href="https://tfp-delkhosh.com/" target="_blank" rel="noopener" data-tilt>
         <span class="pcard-tag">Production · Laravel</span>
         <h3>Delkhosh Business Management System</h3>
         <p>A full Laravel management platform built for Tanvir Food Products, replacing manual paper operations with authenticated, role-aware digital workflows. Designed the MySQL schema, optimised queries, and handled hosting, deployment and performance tuning through a year of live use.</p>
         <ul class="tags"><li>Laravel</li><li>PHP</li><li>MySQL</li><li>Bootstrap</li><li>Deployment</li></ul>
         <span class="pcard-go">Visit site →</span>
       </a>
-
-      <a class="pcard reveal" href="https://amirl.org/" target="_blank" rel="noopener">
+      <a class="pcard reveal" href="https://amirl.org/" target="_blank" rel="noopener" data-tilt>
         <span class="pcard-tag">Research · LLM</span>
         <h3>BackBrainAI @ AMIRL</h3>
-        <p>Research and development contribution at the Advanced Machine Intelligence Research Lab, covering prompt optimisation, experimental design and evaluation of model outputs for Bangla-language interaction.</p>
+        <p>R&amp;D contribution at the Advanced Machine Intelligence Research Lab — prompt optimisation, experimental design and evaluation of model outputs for Bangla-language interaction.</p>
         <ul class="tags"><li>LLMs</li><li>Prompt Engineering</li><li>NLP</li><li>Python</li></ul>
         <span class="pcard-go">Lab site →</span>
       </a>
-
-      <a class="pcard reveal" href="https://github.com/nomanislam222/Software-Requirement-Engineering" target="_blank" rel="noopener">
+      <a class="pcard reveal" href="https://github.com/nomanislam222/Software-Requirement-Engineering" target="_blank" rel="noopener" data-tilt>
         <span class="pcard-tag">Repository</span>
         <h3>Software Requirement Engineering</h3>
-        <p>Requirements artefacts and engineering documentation — elicitation, specification and modelling work from the software engineering major.</p>
+        <p>Requirements artefacts and engineering documentation — elicitation, specification and modelling from the software engineering major.</p>
         <ul class="tags"><li>SRS</li><li>Modelling</li><li>UML</li></ul>
         <span class="pcard-go">View on GitHub →</span>
       </a>
-
-      <a class="pcard reveal" href="https://github.com/nomanislam222/Industrial-Visit" target="_blank" rel="noopener">
+      <a class="pcard reveal" href="https://github.com/nomanislam222/Industrial-Visit" target="_blank" rel="noopener" data-tilt>
         <span class="pcard-tag">Repository</span>
         <h3>Industrial Visit Program</h3>
-        <p>Coordination material and records from the AIUB Students' Industrial Visit Program — the 15+ visit series connecting students with Bangladesh's software industry.</p>
+        <p>Coordination material and records from the AIUB Students' Industrial Visit Program — the 15+ visit series connecting students with the industry.</p>
         <ul class="tags"><li>Program</li><li>Coordination</li></ul>
         <span class="pcard-go">View on GitHub →</span>
       </a>
-
-      <a class="pcard reveal" href="https://github.com/nomanislam222/PHP" target="_blank" rel="noopener">
-        <span class="pcard-tag">Repository</span>
-        <h3>PHP &amp; Web Development</h3>
-        <p>Server-side web work — PHP applications, database-backed pages and the groundwork that fed into the Laravel projects.</p>
-        <ul class="tags"><li>PHP</li><li>MySQL</li><li>jQuery</li></ul>
-        <span class="pcard-go">View on GitHub →</span>
-      </a>
-
-      <a class="pcard reveal" href="https://github.com/nomanislam222/Python" target="_blank" rel="noopener">
+      <a class="pcard reveal" href="https://github.com/nomanislam222/Python" target="_blank" rel="noopener" data-tilt>
         <span class="pcard-tag">Repository</span>
         <h3>Python</h3>
         <p>Python programs and notebooks spanning algorithms, data handling and the experimental scripting behind research work.</p>
         <ul class="tags"><li>Python</li><li>Colab</li><li>Anaconda</li></ul>
         <span class="pcard-go">View on GitHub →</span>
       </a>
-
-      <a class="pcard reveal" href="https://github.com/nomanislam222/Java" target="_blank" rel="noopener">
+      <a class="pcard reveal" href="https://github.com/nomanislam222/Cpp_Programing" target="_blank" rel="noopener" data-tilt>
         <span class="pcard-tag">Repository</span>
-        <h3>Java</h3>
-        <p>Object-oriented Java projects — data structures, desktop applications and the OOP foundation used in teaching.</p>
-        <ul class="tags"><li>Java</li><li>OOP</li><li>NetBeans</li></ul>
+        <h3>C++ &amp; Java Foundations</h3>
+        <p>Algorithm and data-structure implementations — the reference set used for both study and classroom demonstration.</p>
+        <ul class="tags"><li>C++</li><li>Java</li><li>DSA</li></ul>
         <span class="pcard-go">View on GitHub →</span>
       </a>
-
-      <a class="pcard reveal" href="https://github.com/nomanislam222/Cpp_Programing" target="_blank" rel="noopener">
-        <span class="pcard-tag">Repository</span>
-        <h3>C++ Programming</h3>
-        <p>C++ algorithm and data-structure implementations — the reference set used for both study and classroom demonstration.</p>
-        <ul class="tags"><li>C++</li><li>Algorithms</li><li>DSA</li></ul>
-        <span class="pcard-go">View on GitHub →</span>
-      </a>
-
     </div>
 
     <div class="proj-cta reveal">
-      <a class="btn btn-outline" href="https://github.com/nomanislam222?tab=repositories" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.2c-3.34.73-4.04-1.42-4.04-1.42-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.21.09 1.85 1.25 1.85 1.25 1.08 1.84 2.83 1.31 3.52 1 .11-.79.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.13-.3-.54-1.53.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.01 0c2.29-1.55 3.3-1.23 3.3-1.23.65 1.65.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.63-2.8 5.65-5.48 5.95.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/></svg>
-        Browse all repositories
-      </a>
+      <a class="btn btn-ghost" href="https://github.com/nomanislam222?tab=repositories" target="_blank" rel="noopener" data-magnet>Browse all repositories →</a>
     </div>
   </div>
 </section>
 
-<!-- ============ SKILLS ============ -->
-<section id="skills" class="section">
+<!-- ============ SKILLS + EDUCATION ============ -->
+<section id="skills" class="section alt" data-scene="rings">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-num">05</span>
-      <h2>Technical Skills</h2>
-      <p class="sec-sub">What I build with, teach with, and research with.</p>
+    <div class="sec-head">
+      <span class="sec-num reveal">06 — Toolkit &amp; education</span>
+      <h2 data-split-lines>What I build with, teach with, and research with.</h2>
     </div>
 
     <div class="skill-grid">
-      <div class="skill-cat reveal">
-        <h3><span class="dot d1"></span>Programming Languages</h3>
-        <ul class="chips"><li>C++</li><li>C#</li><li>Java</li><li>Python</li><li>PHP</li><li>JavaScript</li><li>SQL</li><li>HTML</li><li>CSS</li><li>C</li></ul>
-      </div>
-      <div class="skill-cat reveal">
-        <h3><span class="dot d2"></span>Frameworks &amp; Libraries</h3>
-        <ul class="chips"><li>Laravel</li><li>Bootstrap</li><li>jQuery</li></ul>
-      </div>
-      <div class="skill-cat reveal">
-        <h3><span class="dot d3"></span>Software Engineering</h3>
-        <ul class="chips"><li>UI/UX Design</li><li>Requirement Engineering</li><li>Software Project Management</li><li>System Design</li></ul>
-      </div>
-      <div class="skill-cat reveal">
-        <h3><span class="dot d4"></span>Development &amp; Collaboration</h3>
-        <ul class="chips"><li>Git</li><li>GitHub</li><li>Jira</li><li>Slack</li><li>MS Teams</li><li>LaTeX (Overleaf)</li><li>Google Colab</li><li>Anaconda</li></ul>
-      </div>
-      <div class="skill-cat reveal">
-        <h3><span class="dot d5"></span>Design &amp; Prototyping</h3>
-        <ul class="chips"><li>Figma</li><li>Balsamiq</li><li>Draw.io</li><li>Canva</li></ul>
-      </div>
-      <div class="skill-cat reveal">
-        <h3><span class="dot d6"></span>IDEs &amp; Environments</h3>
-        <ul class="chips"><li>Visual Studio</li><li>VS Code</li><li>PyCharm</li><li>NetBeans</li><li>Eclipse</li><li>Code::Blocks</li><li>Sublime Text</li><li>Brackets</li><li>XAMPP</li></ul>
-      </div>
-      <div class="skill-cat reveal">
-        <h3><span class="dot d7"></span>Technical &amp; Engineering</h3>
-        <ul class="chips"><li>Cisco Packet Tracer</li><li>AutoCAD</li><li>Arduino IDE</li><li>Multisim</li><li>MySQL</li></ul>
-      </div>
-      <div class="skill-cat reveal">
-        <h3><span class="dot d8"></span>Productivity</h3>
-        <ul class="chips"><li>Microsoft Office Suite</li><li>Google Workspace</li></ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ EDUCATION & LEADERSHIP ============ -->
-<section id="education" class="section alt">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-num">06</span>
-      <h2>Education &amp; Leadership</h2>
-      <p class="sec-sub">A consistent academic record, and the programme I built outside the syllabus.</p>
+      <div class="skill-cat reveal"><h3><i class="dot d1"></i>Languages</h3><ul class="chips"><li>C++</li><li>C#</li><li>C</li><li>Java</li><li>Python</li><li>PHP</li><li>JavaScript</li><li>SQL</li><li>HTML</li><li>CSS</li></ul></div>
+      <div class="skill-cat reveal"><h3><i class="dot d2"></i>Frameworks</h3><ul class="chips"><li>Laravel</li><li>Bootstrap</li><li>jQuery</li></ul></div>
+      <div class="skill-cat reveal"><h3><i class="dot d3"></i>Software engineering</h3><ul class="chips"><li>UI/UX Design</li><li>Requirement Engineering</li><li>Project Management</li><li>System Design</li></ul></div>
+      <div class="skill-cat reveal"><h3><i class="dot d4"></i>Collaboration</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>Jira</li><li>Slack</li><li>MS Teams</li><li>LaTeX</li><li>Colab</li><li>Anaconda</li></ul></div>
+      <div class="skill-cat reveal"><h3><i class="dot d5"></i>Design</h3><ul class="chips"><li>Figma</li><li>Balsamiq</li><li>Draw.io</li><li>Canva</li></ul></div>
+      <div class="skill-cat reveal"><h3><i class="dot d6"></i>Environments</h3><ul class="chips"><li>Visual Studio</li><li>VS Code</li><li>PyCharm</li><li>NetBeans</li><li>Eclipse</li><li>XAMPP</li><li>MySQL</li></ul></div>
+      <div class="skill-cat reveal"><h3><i class="dot d7"></i>Technical</h3><ul class="chips"><li>Cisco Packet Tracer</li><li>AutoCAD</li><li>Arduino IDE</li><li>Multisim</li></ul></div>
+      <div class="skill-cat reveal"><h3><i class="dot d8"></i>Productivity</h3><ul class="chips"><li>Microsoft Office</li><li>Google Workspace</li></ul></div>
     </div>
 
+    <h3 class="sub-head reveal">Education</h3>
     <div class="edu-grid">
-      <div class="edu-card feature reveal">
+      <div class="edu-card feature reveal" data-tilt>
         <span class="chip chip-live">2021 — 2025</span>
         <h3>BSc in Computer Science &amp; Engineering</h3>
         <p class="edu-org">American International University-Bangladesh (AIUB) · Kuril, Dhaka</p>
         <p class="edu-meta">Major: <strong>Software Engineering</strong> · CGPA <strong>3.93 / 4.00</strong></p>
-        <ul class="awards">
-          <li>Magna Cum Laude</li>
-          <li>Dean's Award — every semester</li>
-          <li>Merit Scholarship Holder</li>
-        </ul>
+        <ul class="awards"><li>Magna Cum Laude</li><li>Dean's Award — every semester</li><li>Merit Scholarship Holder</li></ul>
       </div>
-
-      <div class="edu-card reveal">
+      <div class="edu-card reveal" data-tilt>
         <span class="chip">2017 — 2019</span>
-        <h3>Higher Secondary Certificate (HSC)</h3>
+        <h3>Higher Secondary Certificate</h3>
         <p class="edu-org">New Govt. Degree College, Rajshahi</p>
         <p class="edu-meta">Science · GPA <strong>5.00 / 5.00</strong></p>
       </div>
-
-      <div class="edu-card reveal">
+      <div class="edu-card reveal" data-tilt>
         <span class="chip">2017</span>
-        <h3>Secondary School Certificate (SSC)</h3>
+        <h3>Secondary School Certificate</h3>
         <p class="edu-org">Harimohan Govt. High School, Chapainawabganj</p>
         <p class="edu-meta">Science · GPA <strong>5.00 / 5.00</strong></p>
-      </div>
-    </div>
-
-    <div class="lead-panel reveal">
-      <div class="lead-copy">
-        <span class="lead-role">Convener</span>
-        <h3>AIUB Students' Industrial Visit Program</h3>
-        <p>Organised and led <strong>15+ industrial visits</strong> connecting students directly with Bangladesh's leading software and technology companies — managing the event schedule, student coordination, and all professional correspondence, and negotiating technical sessions and company tours through formal industry outreach.</p>
-      </div>
-      <ul class="companies">
-        <li>Brain Station 23</li><li>Softvence Agency</li><li>Riseup Labs</li><li>SparkTech Agency</li>
-        <li>3S Software</li><li>JVAI</li><li>ScaleUp</li><li>DSI</li>
-      </ul>
-    </div>
-
-    <div class="soft-grid reveal">
-      <div class="panel">
-        <h3>Communication</h3>
-        <ul class="tick"><li>Bangla — native proficiency</li><li>English — professional working proficiency</li></ul>
-      </div>
-      <div class="panel">
-        <h3>Interpersonal</h3>
-        <ul class="tick"><li>Academic presentation</li><li>Leadership &amp; team coordination</li><li>Collaborative research</li><li>Active listening &amp; conflict resolution</li></ul>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ============ CONTACT ============ -->
-<section id="contact" class="section contact">
+<section id="contact" class="section contact" data-scene="sphere">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-num">07</span>
-      <h2>Get in touch</h2>
-      <p class="sec-sub">Open to research collaboration, teaching, and software work.</p>
+    <div class="sec-head">
+      <span class="sec-num reveal">07 — Contact</span>
+      <h2 data-split-lines>Let's build something worth researching.</h2>
     </div>
 
     <div class="contact-grid">
-      <a class="ccard reveal" href="mailto:mdnomanislam333@gmail.com">
-        <span class="cicon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg></span>
-        <span class="ck">Email</span>
-        <span class="cv">mdnomanislam333@gmail.com</span>
+      <a class="ccard reveal" href="mailto:mdnomanislam333@gmail.com" data-tilt>
+        <span class="ck">Email</span><span class="cv">mdnomanislam333@gmail.com</span>
       </a>
-      <a class="ccard reveal" href="tel:+8801706129252">
-        <span class="cicon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 0 0 5.5 5.5L16 12l4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 3.5 5.2 2 2 0 0 1 5.5 3Z"/></svg></span>
-        <span class="ck">Phone</span>
-        <span class="cv">+880 1706 129252</span>
+      <a class="ccard reveal" href="tel:+8801706129252" data-tilt>
+        <span class="ck">Phone</span><span class="cv">+880 1706 129252</span>
       </a>
-      <div class="ccard reveal">
-        <span class="cicon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
-        <span class="ck">Location</span>
-        <span class="cv">Kuril, Dhaka, Bangladesh</span>
+      <div class="ccard reveal" data-tilt>
+        <span class="ck">Location</span><span class="cv">Kuril, Dhaka, Bangladesh</span>
       </div>
-      <a class="ccard reveal" href="https://www.linkedin.com/in/nomanislam222/" target="_blank" rel="noopener">
-        <span class="cicon"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM2.9 21.5h4.16V9.5H2.9v12ZM9.5 9.5h3.99v1.64h.06c.56-1.05 1.93-2.16 3.97-2.16 4.25 0 5.03 2.79 5.03 6.42v6.1h-4.15v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85v5.5H9.5v-12Z"/></svg></span>
-        <span class="ck">LinkedIn</span>
-        <span class="cv">in/nomanislam222</span>
+      <a class="ccard reveal" href="https://www.linkedin.com/in/nomanislam222/" target="_blank" rel="noopener" data-tilt>
+        <span class="ck">LinkedIn</span><span class="cv">in/nomanislam222</span>
       </a>
     </div>
 
     <div class="cta-band reveal">
       <div>
-        <h3>Looking for a researcher, a teacher, or an engineer?</h3>
-        <p>I am open to academic collaboration, faculty positions, and software projects that need someone who can do the research and then ship it.</p>
+        <h3>Researcher, technology leader, or engineer — whichever you need.</h3>
+        <p>Open to academic collaboration, faculty positions, and consulting work through Dabblers360.</p>
       </div>
-      <div class="cta-band-btns">
-        <a class="btn btn-primary" href="mailto:mdnomanislam333@gmail.com">Email me</a>
-        <a class="btn btn-ghost" href="assets/MD-Noman-Islam-CV.pdf" download>Download CV</a>
+      <div class="cta-btns">
+        <a class="btn btn-primary" href="mailto:mdnomanislam333@gmail.com" data-magnet>Email me</a>
+        <a class="btn btn-ghost" href="assets/MD-Noman-Islam-CV.pdf" download="MD-Noman-Islam-CV.pdf" data-magnet>Download CV</a>
       </div>
     </div>
   </div>
@@ -575,7 +563,7 @@
   <div class="wrap foot-inner">
     <div>
       <strong>MD Noman Islam</strong>
-      <span>Computer Science · Research · Education — Dhaka, Bangladesh</span>
+      <span>Head of IT, The New School Dhaka · Founder, Dabblers360 · Dhaka, Bangladesh</span>
     </div>
     <ul class="foot-links">
       <li><a href="https://github.com/nomanislam222" target="_blank" rel="noopener">GitHub</a></li>
@@ -587,6 +575,10 @@
   </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/scene.js"></script>
 <script src="assets/main.js"></script>
 </body>
 </html>
